@@ -12,6 +12,9 @@ prints the first part (the head of the file). Command `head catcrimes.txt` print
 prints the last part of a file (the tail of the file). Command `tail catcrimes.txt` prints last 10 most recent crimes (lines) of the file called `catcrimes.txt`. (you can again specify the number of lines using the argument `-n` followed by a number)
 <https://www.man7.org/linux/man-pages/man1/tail.1.html>
 
+### Command `wc`
+prints line count, word count, byte count and a name of each file. Using `wc -l catcrimes.txt` counts the number of crimes (lines) the cat has committed.
+
 ### Command `grep` (global, regular expression, print)
 prints lines that match patterns. Command `grep "arson" catcrimes.txt` will print all the lines containing the expression `"arson"`. The important arguments are:
 1. `grep -i "arson" catcrimes.txt` case insensitive search
