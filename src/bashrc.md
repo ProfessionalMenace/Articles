@@ -24,7 +24,6 @@ ssh-add path/to/your/private/key # usually somewhere in $HOME/.ssh/ ... you have
 ```
 <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh>
 
-
 ### Pulling funny pranks on your friends or coworkers
 Depending on how much you like them you can
 * simply just call them a nerd `echo "Hello, Nerd!"` <https://man7.org/linux/man-pages/man1/echo.1.html>
