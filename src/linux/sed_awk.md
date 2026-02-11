@@ -3,15 +3,18 @@
 ### Command `sort`
 sorts file by lines.
 `sort -n file.txt` sorts numerically instead of lexicographicaly.
+
 <https://www.man7.org/linux/man-pages/man1/sort.1.html>
 
 ### Command `uniq`
 only detects repeated lines that are adjacent.
+
 <https://man7.org/linux/man-pages/man1/uniq.1.html>
 
 ### Command `shuf`
 generates a random permutation of a file.
 `shuff -n 10 file.txt` gets a sample of 10 lines
+
 <https://man7.org/linux/man-pages/man1/shuf.1.html>
 
 ## Command `awk`
